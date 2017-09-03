@@ -1,0 +1,106 @@
+/* .App {
+  text-align: center;
+  background-color: white; 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+.App-intro {
+  font-size: large;
+}
+ */
+.background {
+  background-color: #E8E8E8;
+  width: 100vw;
+  height: 1000vh;
+}
+
+
+ .App-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+  align-content: flex-start;
+  background-color: grey;
+  margin: 10% 20%; 
+  border-radius: 6px;
+ }
+.App-logo {
+  width: 50px;
+}
+.search {
+  
+}
+.Coordinates {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+  
+}
+
+.search {
+  padding-bottom: 80px;
+}
+.totals {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+}
+
+  .total {
+  background-color: #FFFFFF;
+  height: 30vh;
+  width: 30vh;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: flex-start;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  }
+    .line1 {
+      font-size: 100%;
+    }
+    .line2 {
+      font-size:60px;
+      font-weight: bold;
+    }
+    .line3 {
+
+    }
+    .line4 {
+
+    }
+button {
+  border-radius: 1px;
+  background-color: #E6E6FF;
+  height: 20px;
+}
+input {
+  border-radius: 0px;
+  box-shadow: 0px;
+  height: 15px;
+}
